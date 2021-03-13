@@ -34,3 +34,22 @@ router.put("/api/workouts/:id", (req, res) => {
 
 });
 
+router.post("/api/workouts", ({body}, res) => {
+    db.workout.create(body).then((dbWorkout => {
+        res.json(dbWorkout);   
+    })).catch(err => {
+        res.json(err);
+    });
+});
+
+router.get("/api/workouts/range", (req, res) => { 
+    db.workout.find({}).then(dbWorkout =>{
+        console.log("All Workouts")
+        console.log(dbWorkout);
+        res.json(dbWorkout)
+    }).catch(err => {
+        res.json(err);
+    });
+})
+
+module.exports = router;
