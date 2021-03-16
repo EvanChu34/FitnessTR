@@ -12,6 +12,9 @@
 ---------------------------	
 
 ## About
+FitnessTR is application that tracks your workout information. The user can add in any workout under two different categories:
+resistance or cardio. The application allows the user to add any
+workout movement to the database. It will log the information on a stats page. The stats store the data given and puts into graphs that show progress or decline. 
 
 
 ---------------------------
@@ -19,6 +22,8 @@
 ## Live Application
 
 You can find the live application here: 
+
+https://dashboard.heroku.com/apps/warm-headland-41371
 
 ---------------------------
 
@@ -28,13 +33,12 @@ You can find the live application here:
 ---------------------------	
 
 ## Getting Started 
-Before you start, you must install a few things in npm:
-* 
-* 
+Before you start, you must install a few things:
+* mongoDB 
+* Mongoose
+* mongo Atlas
 * Express
-* 
-* 
-* 
+* Logger
 
 ---------------------------	
 
