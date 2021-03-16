@@ -2,7 +2,7 @@ const db = require("../models");
 const router = require("express").Router();
 
 
-router.get("/api/workouts", (req, res) =>{
+router.get("/api/workouts", (req, res) => {
     db.workout.find({}).then(dbWorkout => {
         dbWorkout.forEach(workout => {
             var total = 0;
