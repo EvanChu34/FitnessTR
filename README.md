@@ -27,7 +27,12 @@ https://dashboard.heroku.com/apps/warm-headland-41371
 
 ---------------------------
 
-## Picture of Application
+## Pictures of Application
+
+![Site](public/assets/Fitness1.png)
+
+![Site](public/assets/Fitness2.png)
+
 
 
 ---------------------------	
