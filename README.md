@@ -4,7 +4,7 @@
 
 
 1. [About](#about)
-1. [Pictures of Application](#pictures-of-application)
+1. [Pictures/Gif of Application](#pictures/gif-of-application)
 1. [Live Application](#live-application)
 1. [Getting Started](#getting-started)
 1. [License](#license)
@@ -23,15 +23,19 @@ workout movement to the database. It will log the information on a stats page. T
 
 You can find the live application here: 
 
-https://dashboard.heroku.com/apps/warm-headland-41371
+https://warm-headland-41371.herokuapp.com/?id=605166a80da2980015a2b9ff
 
 ---------------------------
 
-## Pictures of Application
+## Pictures/Gif of Application
 
 ![Site](public/assets/Fitness1.png)
 
 ![Site](public/assets/Fitness2.png)
+
+![Site](public/assets/Fitness3.png)
+
+![](public/assets/FitnessTR-demo.gif)
 
 
 
